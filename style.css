@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&family=Poppins&family=Muli&familiy=Roboto&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #e0eafc;
+  background: -webkit-linear-gradient(to top, #cfdef3, #e0eafc);
+  background: linear-gradient(to top, #cfdef3, #e0eafc);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Noto Sans" sans-serif;
+}
+
+.container {
+  background: #d3cce3;
+  background: -webkit-linear-gradient(to bottom, #e9e4f0, #d3cce3);
+  background: linear-gradient(to bottom, #e9e4f0, #d3cce3);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.387);
+  border-radius: 5px;
+  overflow: hidden;
+  width: 500px;
+  max-width: 100%;
+}
+
+.header {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 2rem;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #f0f0f0;
+  padding: 20px 40px;
+}
+
+.header h2 {
+    margin: 0;
+}
+
+.form {
+    padding: 30px 40px;
+}
+
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.form-control input:focus {
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.348);
+}
+
+.form-control.success input {
+    border-color: #2ecc71;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control i {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle {
+    visibility: visible;
+    color: #2ecc71;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    visibility: visible;
+    color: #e74c3c;
+}
+
+.form-control small {
+    visibility: hidden;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.form-control.error small {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form button {
+    background-color: royalblue;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Noto Sans" sans-serif;
+    font-size: 1.1rem;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.348);
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+
+.form button:active {
+    box-shadow: none;
+    transform: scale(0.99);
+}
+
+label {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+input {
+  font-family: "Muli", sans-serif;
+}
+
+small {
+  font-family: "Poppins", sans-serif;
+}
+
